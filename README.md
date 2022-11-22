@@ -1,3 +1,15 @@
+## What to test?
+
+- Test component renders
+- Test component renders with props
+- Test component renders in different states
+- Test component reacts to events
+
+## What not to test?
+- Implementation details
+- Third party code
+- Code that is not important from user point of view
+  
 ## Test Driven Development (TDD)
 
 Test driven development is a software development process where you write tests before writing the software code.
@@ -24,3 +36,9 @@ A metric that can help in understanding how much of software code is tested.
 - **Branches coverage:** how many of the branches of the control structures (if statements, ternary operator for instance) have been excuted
 - **Function coverage:** how many of the functions defined have been called
 - **Line coverage:** how many lines of source code have been tested
+
+## Assertion
+
+[Jest common matchers](https://github.com/testing-library/jest-dom#custom-matchers)
+
+[Jest dom custom matchers](https://github.com/testing-library/jest-dom#custom-matchers)
