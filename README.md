@@ -9,3 +9,9 @@ Once the tests have been written, you then write the code to ensure the tests pa
 3. Refactore the code for optimization while ensuring the tests continue to pass
 
 Also called red-green testing as all tests go from a red failed state to green passed state.
+
+## Filename Conventions
+
+- `.test.js` or `.test.jsx` suffix
+- `.spec.js` or `.spec.tsx` suffix
+- `.js` or `.tsx` suffix in `__tests__` folder
