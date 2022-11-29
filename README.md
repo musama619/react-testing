@@ -42,3 +42,29 @@ A metric that can help in understanding how much of software code is tested.
 [Jest common matchers](https://github.com/testing-library/jest-dom#custom-matchers)
 
 [Jest dom custom matchers](https://github.com/testing-library/jest-dom#custom-matchers)
+
+## RTL Queries
+
+Test written generally includes following steps
+- Render the component
+- Find an element rendered by the component
+- Assert against the element found in above step, which will pass or fail
+
+To render the component, we use render method from RTL
+To find elements on the method we use queries, which are methods provided by RTL
+For assertion, we use expect passing in a value and combine it with matcher function from jest or jest-dom 
+
+To find a single element on the page,
+- getBy..
+- queryBy..
+- findBy..
+
+To find multiple elements
+- getAllBy..
+- queryAllBy..
+- findAllBy..
+
+The suffix can be Role, LabelText, PlaceHolderText, Text, DisplayValue, AltText, Title, and finally TestId
+
+https://testing-library.com/docs/queries/about
+  
